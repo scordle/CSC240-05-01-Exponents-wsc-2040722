@@ -41,6 +41,7 @@ namespace Exponents
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
+            UxOutputLabel.Text += "\nCube is " + Cube(num).ToString();
 
             // OUTPUT
             // set the output to visible
@@ -56,10 +57,11 @@ namespace Exponents
             return num * num;
         }
 
-        //public int Cube(int num)
-        //{
-        //    // we will create this code in class
-        //}
+        public int Cube(int num)
+        {
+            // we will create this code in class
+            return num * num * num;
+        }
 
         private void xResetButton_Click(object sender, EventArgs e)
         {
